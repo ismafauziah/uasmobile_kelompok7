@@ -6,9 +6,9 @@ import retrofit2.http.Query
 interface ApiServices {
 
     @GET("channels")
-    fun getchannel()
+    fun getChannel(
         @Query("part") part: String,
-        @Query("id") id: String,
+        @Query("id") id: String
     ) : Call<ChannelModel>
 
 }
