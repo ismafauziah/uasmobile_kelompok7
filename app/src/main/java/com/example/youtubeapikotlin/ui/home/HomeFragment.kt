@@ -27,10 +27,13 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
         val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+        homeViewModel.channel.observe(viewLifecycleOwner) {
+            if (it != null && it.items.isNotEmpty()){
+                it.items.forEach { channel ->
+                    textView.text = channel.snippet.title
+                }
+            }
         }
         return root
     }
