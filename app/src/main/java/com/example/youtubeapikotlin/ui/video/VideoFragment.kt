@@ -1,4 +1,4 @@
-package com.example.youtubeapikotlin.ui.home
+package com.example.youtubeapikotlin.ui.video
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.youtubeapikotlin.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment() {
+class VideoFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
 
@@ -22,18 +22,23 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        val videoViewModel =
+            ViewModelProvider(this).get(VideoViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
         val textView: TextView = binding.textHome
+<<<<<<< HEAD:app/src/main/java/com/example/youtubeapikotlin/ui/home/HomeFragment.kt
         homeViewModel.channel.observe(viewLifecycleOwner) {
             if (it != null && it.items.isNotEmpty()){
                 it.items.forEach { channel ->
                     textView.text = channel.snippet.title
                 }
             }
+=======
+        videoViewModel.text.observe(viewLifecycleOwner) {
+            textView.text = it
+>>>>>>> bagian3:app/src/main/java/com/example/youtubeapikotlin/ui/video/VideoFragment.kt
         }
         return root
     }

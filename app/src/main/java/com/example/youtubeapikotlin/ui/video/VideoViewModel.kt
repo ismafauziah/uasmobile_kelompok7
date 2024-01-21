@@ -1,11 +1,11 @@
-package com.example.youtubeapikotlin.ui.home
+package com.example.youtubeapikotlin.ui.video
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.youtubeapikotlin.model.ChannelModel
 
-class HomeViewModel : ViewModel() {
+class VideoViewModel : ViewModel() {
 
     private val _channel = MutableLiveData<ChannelModel>()
     val channel = _channel
