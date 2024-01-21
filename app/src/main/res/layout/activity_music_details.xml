@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".view.NewsDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/musicDetailsPlay"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pause_icon" />
+
+        <TextView
+            android:id="@+id/musicDetailsNext"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/musicDetailsPlay"
+            android:background="@drawable/next_icon" />
+
+        <TextView
+            android:id="@+id/musicDetailsPrevious"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/musicDetailsPlay"
+            android:background="@drawable/prev_icon" />
+
+        <TextView
+            android:id="@+id/musicDetailsForward"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/musicDetailsNext"
+            android:background="@drawable/forward_icon" />
+
+        <TextView
+            android:id="@+id/musicDetailsBackward"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/musicDetailsPrevious"
+            android:background="@drawable/rewind_icon" />
+
+        <com.gauravk.audiovisualizer.visualizer.BarVisualizer
+            android:id="@+id/musicDetailsVisualizer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/musicDetailsPlay"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="551dp"
+            app:avColor="@color/teal_200"
+            app:avDensity="0.5"
+            app:avSpeed="normal"
+            app:avType="outline" />
+
+    </RelativeLayout>
+</LinearLayout>
