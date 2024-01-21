@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="auth_fields">
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColorHint">#464646</item>
+    </style>
+
+    <style name="auth_textview">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="auth_header">
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textSize">55sp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="auth_image">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="srcCompat">@drawable/logo_login</item>
+    </style>
+
+    <style name="profile_button">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
