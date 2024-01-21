@@ -11,4 +11,14 @@ interface ApiServices {
         @Query("id") id: String
     ) : Call<ChannelModel>
 
+
+
+
+
+
+
+
+        @Query("order") order: String,
+        @Query("pageToken") pageToken: String?
+
 }

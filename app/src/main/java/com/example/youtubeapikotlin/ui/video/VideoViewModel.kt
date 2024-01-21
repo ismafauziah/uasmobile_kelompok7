@@ -1,5 +1,6 @@
 package com.example.youtubeapikotlin.ui.video
 
+<<<<<<< HEAD
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -48,3 +49,51 @@ class VideoViewModel : ViewModel() {
         private val TAG = HomeViewModel::class.java.simpleName
 
 }
+=======
+import androidx.lifecycle.MutableLiveData
+
+class VideoViewModel {
+
+
+
+
+
+
+
+
+
+
+
+
+
+private val _isAllVideoLoaded = MutableLiveData<Boolean>()
+val isAllVideoLoaded = _isAllVideoLoaded
+
+
+private var nextPageToken: String? = null
+
+init{
+    getVideoList()
+}
+
+fun getVideoList(){
+}
+
+
+
+
+
+
+    if (data != null){
+        if (data.nextPageToken != null){
+            nextPageToken = data.nextPageToken
+        } else {
+            _isAllVideoLoaded.value = true
+        }
+        if (data.items.isNotEmpty()){
+            _video.value = data
+        }
+    }
+}
+
+>>>>>>> bagian5
