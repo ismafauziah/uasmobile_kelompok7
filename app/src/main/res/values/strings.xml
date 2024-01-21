@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">Music Social</string>
+
+    <string name="login_login">LOG IN</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_forget_password">Forget Your Password?</string>
+    <string name="login_register">Don\'t have an account? Register now.</string>
+    <string name="login_button">Log In</string>
+
+    <string name="register_register">SIGN UP</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_image">Image URL</string>
+    <string name="register_login">Already have an account? Log In.</string>
+    <string name="register_button">Sign Up</string>
+
+    <string name="profile_music">Play Music</string>
+    <string name="profile_videos">Watch Videos</string>
+    <string name="profile_news">Browse News</string>
+
+    <string name="news_add_add">ADD\nNEWS</string>
+    <string name="news_add_title">Title</string>
+    <string name="news_add_image">Image URL</string>
+    <string name="news_add_description">Description</string>
+    <string name="news_add_button">Publish</string>
+    <string name="news_add_cancel">Cancel</string>
+
+    <string name="news_details_comment">Comment...</string>
+    <string name="news_details_add">Add</string>
+
+    <string name="registration_dialog_title">Registration Successful</string>
+    <string name="registration_dialog_info">Please Log In now to start using application!</string>
+
+    <string name="toast_video_no_internet">No Internet connection</string>
+    <string name="toast_video_error">Error when playing Video</string>
+    <string name="toast_news_added">"News successfully added!"</string>
+    <string name="toast_news_error">Error when adding News!</string>
+    <string name="toast_login_success">"Login Successful!"</string>
+    <string name="toast_login_error">"Invalid Credentials!"</string>
+    <string name="toast_register_success">Registration is Successful!</string>
+    <string name="toast_register_error">Error when creating new User!</string>
+
+    <string name="login_username_validation">"Username must be at least 3 chars long!"</string>
+    <string name="login_password_validation">"Password must be at least 5 chars long!"</string>
+
+    <string name="register_username_validation">"Username must be at least 3 chars long!"</string>
+    <string name="register_password_validation">"Password must be at least 5 chars long!"</string>
+    <string name="register_image_validation">"Image URL is required!"</string>
+
+    <string name="news_title_validation">"News title is required!"</string>
+    <string name="news_image_validation">"News image is required!"</string>
+    <string name="news_description_validation">"News description is required!"</string>
+
+</resources>
