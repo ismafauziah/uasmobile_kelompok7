@@ -54,11 +54,26 @@ private var isAllVideoLoaded = false
                     isScroll = false
                     if (!isLoading){
                         if (!isAllVideoLoaded){
-
+                            videoViewModel?.getVideoList()
                         }else{
                             Toast.makeText(requireContext(), "All video loaded", Toast.LENGTH_SHORT).show()
                         }
                     }
                 }
             }
+
+        })
+
+        videoViewModel?.video?.observe(viewLifecycleOwner, {
+
+
+
+        })
+
+        videoViewModel.isLoading?.observe(viewLifecycleOwner, {
+            isLoading = it
+        })
+
+        videoViewModel?.isAllVideoLoaded?.observe(viewLifecycleOwner, {
+            isAllVideoLoaded = it
         })
