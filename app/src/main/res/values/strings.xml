@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Youtube API kotlin</string>
-    <string name="title_video">Video</string>
-    <string name="title_playlist">Playlist</string>
-    <string name="title_channel">Channel</string>
-</resources>

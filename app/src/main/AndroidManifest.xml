@@ -1,23 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="hr.tvz.android.musicsocial">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:preserveLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.YoutubeAPIKotlin"
-        tools:targetApi="31">
+        android:theme="@style/Theme.MusicSocial"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view.MusicDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.VideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.NewsAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.NewsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MusicccActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
