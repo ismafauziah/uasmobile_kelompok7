@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RegisterActivity">
+
+    <TextView
+        android:id="@+id/registerHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/auth_header"
+        android:text="@string/register_register"/>
+
+    <ImageView
+        android:id="@+id/registerImage"
+        style="@style/auth_image"
+        android:layout_width="331dp"
+        android:layout_height="223dp"
+        app:layout_constraintTop_toBottomOf="@+id/registerHeader"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerImage"
+        app:layout_constraintVertical_bias="0.183">
+
+        <EditText
+            android:id="@+id/registerUsername"
+            style="@style/auth_fields"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/register_username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerPassword"
+            style="@style/auth_fields"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/register_password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/registerImageURL"
+            style="@style/auth_fields"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/register_image"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/registerLogin"
+            style="@style/auth_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_login" />
+
+        <Button
+            android:id="@+id/registerButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/register_button"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
