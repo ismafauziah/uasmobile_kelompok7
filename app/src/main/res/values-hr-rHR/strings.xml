@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Social</string>
+    <string name="login_login">PRIJAVA</string>
+    <string name="login_username">Korisničko ime</string>
+    <string name="login_password">Lozinka</string>
+    <string name="login_forget_password">Zaboravili ste lozinku?</string>
+    <string name="login_register">Nemate račun? Registriraj me!</string>
+    <string name="login_button">Prijavi me</string>
+    <string name="register_register">REGISTRACIJA</string>
+    <string name="register_username">Korisničko ime</string>
+    <string name="register_password">Lozinka</string>
+    <string name="register_image">Slika URL</string>
+    <string name="register_login">Već imate račun? Prijavi me.</string>
+    <string name="register_button">Registriraj me</string>
+    <string name="profile_music">Slušaj Glazbu</string>
+    <string name="profile_videos">Gledaj Video</string>
+    <string name="profile_news">Čitaj Vijesti</string>
+    <string name="news_add_add">DODAJ VIJEST</string>
+    <string name="news_add_title">Naslov</string>
+    <string name="news_add_image">Slika URL</string>
+    <string name="news_add_description">Opis</string>
+    <string name="news_add_button">Objavi</string>
+    <string name="news_add_cancel">Odustani</string>
+    <string name="news_details_comment">Komentiraj...</string>
+    <string name="news_details_add">Dodaj</string>
+    <string name="registration_dialog_title">Uspješna Registracija</string>
+    <string name="registration_dialog_info">Molimo ulogirajte se kako biste mogli koristiti aplikaciju!</string>
+    <string name="toast_video_no_internet">Nema Internetske veze</string>
+    <string name="toast_video_error">Greška prilikom gledanja Videa</string>
+    <string name="toast_news_added">Vijest uspješno dodana!</string>
+    <string name="toast_news_error">Greška kod dodavanja Vijesti!</string>
+    <string name="toast_login_success">Uspješna Prijava!</string>
+    <string name="toast_login_error">Neispravni korisnički podatci!</string>
+    <string name="toast_register_success">Uspješna registracija!</string>
+    <string name="toast_register_error">Greška kod registracije!</string>
+    <string name="login_username_validation">Korisničko ime mora imati najmanje 3 znaka!</string>
+    <string name="login_password_validation">Lozinka mora imati najmanje 5 znakova!</string>
+    <string name="register_username_validation">Korisničko ime mora imati najmanje 3 znaka!</string>
+    <string name="register_password_validation">Lozinka mora imati najmanje 5 znakova!</string>
+    <string name="register_image_validation">Slika je obavezna!</string>
+    <string name="news_title_validation">Naslov vijesti je obavezan!</string>
+    <string name="news_image_validation">Slika vijesti je obavezna!</string>
+    <string name="news_description_validation">Opis vijesti je obavezan!</string>
+</resources>
