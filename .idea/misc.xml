@@ -1,38 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/drawable-v24/background_btn.xml" value="0.539" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/drawable/next_icon.xml" value="0.5475" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout-land/activity_news_details.xml" value="0.2899972744617062" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_auth.xml" value="0.33" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_music.xml" value="0.38315217391304346" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_music_details.xml" value="0.33" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_news.xml" value="0.5409990574929312" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_news_add.xml" value="0.38315217391304346" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_news_details.xml" value="0.2989583333333333" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_profile.xml" value="0.38315217391304346" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_register.xml" value="0.33" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_test.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/activity_videos.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/fragment_login.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/fragment_login2.xml" value="0.5401041666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/fragment_register.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/music_item.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/news_item.xml" value="0.33" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/registration_dialog.xml" value="0.38315217391304346" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/success_toast.xml" value="0.38315217391304346" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/toast_error.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/toast_layout.xml" value="0.38315217391304346" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/toast_success.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/layout/video_item.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/menu/logout_menu.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Korisnik/Desktop/TVZ Materijali/6. Semestar/Razvoj aplikacija na Android platformi/Projekt/app/src/main/res/menu/news_menu.xml" value="0.5541666666666667" />
-      </map>
-    </option>
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
