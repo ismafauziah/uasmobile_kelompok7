@@ -42,7 +42,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="7dp"
                 android:scaleType="centerInside"
-                android:src="@drawable/new__channel_photo"
+                android:src="@drawable/sandhika"
                 app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
 
             <LinearLayout
